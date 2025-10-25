@@ -8,48 +8,75 @@
 </head>
 <body>
   <h1>Stream Deck de Los Simpsons</h1>
+  <h2>Personajes</h2>
 <div class="grid">
-  <button class="card" onclick="sendCommand(1)">
+  <button class="card" onclick="sendpj(1)">
     <img src="Imagenes/homero-icon.png" alt="Homer Simpson">
     <span>Homer Simpson</span>
   </button>
 
-  <button class="card" onclick="sendCommand(2)">
+  <button class="card" onclick="sendpj(2)">
     <img src="Imagenes/marge-icon.png" alt="Marge Simpson">
     <span>Marge Simpson</span>
   </button>
 
-  <button class="card" onclick="sendCommand(3)">
+  <button class="card" onclick="sendpj(3)">
     <img src="Imagenes/bart-icon.png" alt="Bart Simpson">
     <span>Bart Simpson</span>
   </button>
 
-  <button class="card" onclick="sendCommand(4)">
+  <button class="card" onclick="sendpj(4)">
     <img src="Imagenes/lisa-icon.png" alt="Lisa Simpson">
     <span>Lisa Simpson</span>
   </button>
 
-  <button class="card" onclick="sendCommand(5)">
+  <button class="card" onclick="sendpj(5)">
     <img src="Imagenes/maggie-icon.png" alt="Maggie Simpson">
     <span>Maggie Simpson</span>
   </button>
 
-  <button class="card" onclick="sendCommand(9)">
+  <button class="card" onclick="sendpj(9)">
     <img src="Imagenes/ned-icon.png" alt="Ned Flanders">
     <span>Ned Flanders</span>
   </button>
 
-  <button class="card" onclick="sendCommand(13)">
+  <button class="card" onclick="sendpj(13)">
     <img src="Imagenes/burns-icon.png" alt="Monty Burns">
     <span>Monty Burns</span>
   </button>
 
-  <button class="card" onclick="sendCommand(16)">
+  <button class="card" onclick="sendpj(16)">
     <img src="Imagenes/moe-icon.png" alt="Moe Szyslak">
     <span>Moe Szyslak</span>
   </button>
+</div>
+ <h2>Ubicaciones</h2>
+<div class="grid">
+    <button class="card" onclick="sendubi(5)">
+    <img src="Imagenes/bar-icon.png" alt="Moe Tavern">
+    <span>Moe's Tavern</span>
+  </button>
+
+    <button class="card" onclick="sendubi(1)">
+    <img src="Imagenes/casa-icon.png" alt="Casa">
+    <span>742 Evergreen Terrace</span>
+  </button>
+
+    <button class="card" onclick="sendubi(3)">
+    <img src="Imagenes/colegio-icon.png" alt="School">
+    <span>Springfield Elementary School</span>
+  </button>
+
+    <button class="card" onclick="sendubi(6)">
+    <img src="Imagenes/hospital-icon.png" alt="Hospital">
+    <span>Springfield General Hospital</span>
+  </button>
 
 </div>
+  <div id="overlay" class="overlay hidden"></div>
+  <div id="modal" class="modal hidden"></div>
+  <script src="modal.js"></script>
   <script src="script.js"></script>
+
 </body>
 </html>
