@@ -21,10 +21,10 @@ Para ejecutar debemos descargar el proyecto desde GitHub
 Link: 
 
 1. Clonar el repositorio desde GitHub  
-   git clone https://github.com/keevindiazistea/TPStreamDeck.git
+   git clone https://github.com/keevindiazistea/tpstreamdeck.git
 
 2. Ir a la carpeta del proyecto  
-   cd TPStreamDeck
+   cd tpstreamdeck
 
 3. Construir la imagen de Docker  
    docker build -t tpstreamdeck .
