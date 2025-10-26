@@ -30,10 +30,11 @@ Link:
    docker build -t tpstreamdeck .
 
 4. Ejecutar el contenedor  
-   docker run -p 8080:80 tpstreamdeck
+   docker run -p 3359:80 --name TPKevinDiaz tpstreamdeck
 
 5. Abrir el navegador en  
-   http://localhost:8080
+   http://localhost:3359
 
 Este mismo nos debera de mostrar 8 personajes y 4 ubicaciones. Cada uno con su icono y nombre. Al realizar clic sobre cada icono nos traera una ventana con mas informacion que se obtiene desde la API correspondiente.
 
+#10/2025 - Kevin Diaz
